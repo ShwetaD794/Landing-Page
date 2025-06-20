@@ -1,0 +1,164 @@
+/* styles.css */
+
+.container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 250px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.btn {
+  margin-top: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Form styles */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.form-btn {
+  background-color: green;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* Admin page styles */
+.admin-form input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.admin-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.admin-list {
+  margin-top: 1rem;
+}
+
+.admin-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 0.5rem 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f8f8f8;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.logout {
+  color: red;
+  cursor: pointer;
+}
+
+/* Submission form */
+.submission-form {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.submission-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submission-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.submissions-list {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 600px;
+  border-top: 1px solid #ccc;
+}
+
+.submissions-list h3 {
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}
+
+.submission-item {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
